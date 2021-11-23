@@ -15,6 +15,7 @@ int main()
     }
     for (int i = 0; i < 10; i++)
     {
+        if(a[i]>0)
         printf("%d %d\n", i, a[i]);
     }
 }
